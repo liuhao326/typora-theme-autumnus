@@ -10,11 +10,11 @@
 
 > > 该主题主要测试于  Windows 和 Ubuntu，尚未经过 Mac 平台测试，但应能正常工作。如果出现任何显示错误，请联系我。
 > >
-> > Autumnus-dark 和 Autumnus-fluence 都依赖于 Autumnus。
+> > autumnus-dark 和 autumnus-fluence 都依赖于 autumnus。
 > >
 > > opt-dark 和 opt-fluence 也同样依赖于 opt-autumnus。
 > >
-> > QD-dark 和 QD-fluence 也同样依赖于 QD-autumnus。
+> > qd-dark 和 qd-fluence 也同样依赖于 qd-light。
 >
 
 ## 安装
@@ -36,7 +36,7 @@
 | ------------- | -------------- | ------------- | ---------------- |
 | Autumnus 风格 | Autumnus-light | Autumnus-dark | Autumnus-fluence |
 | opt 风格      | opt-light      | opt-dark      | opt-fluence      |
-| 起点风格      | QD-light       | QD-dark       | QD-fluence       |
+| 起点风格      | Qd-light       | Qd-dark       | Qd-fluence       |
 
 增加了新的 `less` 风格。该风格主要是对 `autumnus` 进行了些许修改：减少了行距、改变了标题样式等。基本上和 `autumnus` 风格相同。
 

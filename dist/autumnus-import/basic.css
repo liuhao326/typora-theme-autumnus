@@ -1,0 +1,68 @@
+:root{
+    --bg-color: hsl(0, 0%, 100%);
+    --write-bg: hsl(0, 0%, 100%);
+    --link-bg: transparent;
+    --mark-bg: hsl(0, 100%, 85%);
+    --code-bg: hsl(0, 100%, 95%);
+    --codeb-bg: hsl(0, 0%, 95%);
+    --quota-bg: hsl(0, 0%, 97%);
+    --thead-bg: hsl(0, 0%, 91%);
+    --tbody-bg: hsl(0, 0%, 93%);
+
+    --title-color: hsl(0, 0%, 5%);
+    --text-color: hsl(0, 0%, 20%);
+    --mark-color: hsl(0, 0%, 20%);
+    --code-color: hsl(0, 0%, 30%);
+    --quota-color: hsl(0, 0%, 30%);
+    --codeb-color: hsl(0, 0%, 30%);
+    --footer-color: hsl(0, 0%, 50%);
+    --link-color: hsl(0, 100%, 75%);
+    --md-char-color: hsl(0, 100%, 85%);
+    --meta-content-color: hsl(0, 100%, 85%);
+
+    --link-hover: hsl(0, 100%, 85%);
+    --thead-hover: hsl(0, 0%, 99%);
+    --tbody-hover: hsl(0, 0%, 99%);
+
+    --window-border: 1px solid hsl(0, 0%, 95%);
+    --base-border: 1px solid hsl(0, 100%, 85%);
+    --base-borderl: 4px solid hsl(0, 100%, 85%);
+    --base-borderb: 1px dashed hsl(0, 100%, 85%);
+    --opt-borderb: 1px dashed hsl(215, 100%, 65%);
+
+    --opt-shadow: 0px 8px 16px 1px hsla(0, 0%, 0%, 0.3);
+    --img-shadow: var(--opt-shadow);
+    --code-shadow: none;
+    --quota-shadow: none;
+
+    --base-margin: 1rem auto;
+    --base-padding: 1px 4px;
+    --opt-padding: 1rem;
+    --lineheight: 1.75rem;
+}
+
+/*表格顶行*/
+#write table tr th{
+    border: 1px solid var(--thead-bg);
+}
+
+/*表格大小输入*/
+.md-grid-board-wrap input{
+    text-align: center !important;
+}
+
+/*表格大小设置面板*/
+.popover.bottom.md-table-resize-popover{
+    width: auto;
+    max-width: none;
+}
+
+/*表格大小设置面板中的方框*/
+.md-grid-board.md-reset>tbody>tr>td>a{
+    border-bottom: 1px solid var(--table-border-color) !important;
+}
+
+/*搜索*/
+#file-library-search-input{
+    padding-left: 0.4em;
+}
